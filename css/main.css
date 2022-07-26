@@ -6,14 +6,22 @@ body{
   margin: 0;
   padding: 0;
 }
-
+h3.zikr{
+  max-width: 500px;
+  font-size: 30px;
+  text-align: center;
+  margin: 60px auto 0;
+  font-family: "Monotype Corsiva";
+}
 .container{
   position: relative;
   max-width: 295px;
   width: 100%;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 0 auto;
-  transform: translateY(calc(50% / 2));
+  transform: translateY(60px);
 }
 
 #countInfo{
@@ -32,21 +40,25 @@ body{
 
 #resetBtn{
   position: absolute;
-  top: 244.3px;
-  left: 52px;
-  width: 28px;
-  height: 28px;
+  top: 243px;
+  left: 54px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   border: none;
   background-color: red;
   box-shadow: 2px 0px 1px rgb(182, 178, 178);
 }
 
+#resetBtn:active{
+  transform: scale(.9);
+}
+
 .valueLabel{
   position: absolute;
-  top: 244px;
-  left: 90px;
-  font-size: 20px;
+  top: 248px;
+  left: 97px;
+  font-size: 17px;
   color: white;
   text-align: center;
   font-weight: 700;
@@ -56,24 +68,32 @@ body{
 
 #colorBtn{
   position: absolute;
-  top: 244.3px;
-  left: 218px;
-  width: 28px;
-  height: 28px;
+  top: 243px;
+  left: 220px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   border: none;
   background-color: red;
   box-shadow: 2px 0px 1px rgb(182, 178, 178);
 }
 
+#colorBtn:active{
+  transform: scale(.9);
+}
+
 #countBtn{
   position: absolute;
-  top: 272px;
+  top: 270px;
   left: 92px;
-  width: 104px;
-  height: 104px;
+  width: 110px;
+  height: 110px;
   border-radius: 50%;
   border: none;
   background-color: red;
-  box-shadow: 2px 0px 4px rgb(182, 178, 178);
+  box-shadow: 2px 0px 2px 1px rgb(182, 178, 178);
+}
+
+#countBtn:active{
+  transform: scale(.95);
 }

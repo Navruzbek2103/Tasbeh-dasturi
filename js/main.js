@@ -7,6 +7,8 @@ elButton.addEventListener("click", function(){
   var value = Number(resultValue.value);
   value += 1;
   resultValue.value = value
+
+  // if(resultValue.value)
 })
 
 elRetryBtn.addEventListener("click", function(){
