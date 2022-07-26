@@ -1,0 +1,79 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  position: relative;
+  max-width: 295px;
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  transform: translateY(calc(50% / 2));
+}
+
+#countInfo{
+  width: 170px;
+  position: absolute;
+  top: 140px;
+  left: 60px;
+  text-align: center;
+  font-size: 70px;
+  caret-color: transparent;
+  border: 3px solid black;
+  border-radius: 3px;
+  outline: none;
+  box-shadow: 0 0 2px 2px white;
+}
+
+#resetBtn{
+  position: absolute;
+  top: 244.3px;
+  left: 52px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: none;
+  background-color: red;
+  box-shadow: 2px 0px 1px rgb(182, 178, 178);
+}
+
+.valueLabel{
+  position: absolute;
+  top: 244px;
+  left: 90px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  text-transform: capitalize;
+  background-color: black;
+}
+
+#colorBtn{
+  position: absolute;
+  top: 244.3px;
+  left: 218px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: none;
+  background-color: red;
+  box-shadow: 2px 0px 1px rgb(182, 178, 178);
+}
+
+#countBtn{
+  position: absolute;
+  top: 272px;
+  left: 92px;
+  width: 104px;
+  height: 104px;
+  border-radius: 50%;
+  border: none;
+  background-color: red;
+  box-shadow: 2px 0px 4px rgb(182, 178, 178);
+}
