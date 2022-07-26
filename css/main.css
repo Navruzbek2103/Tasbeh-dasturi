@@ -7,12 +7,17 @@ body{
   padding: 0;
 }
 h3.zikr{
-  max-width: 500px;
+  max-width: 900px;
   font-size: 30px;
   text-align: center;
   margin: 60px auto 0;
   font-family: "Monotype Corsiva";
 }
+
+.zikrActive:active{
+  transform: scale(.9);
+}
+
 .container{
   position: relative;
   max-width: 295px;
@@ -21,7 +26,7 @@ h3.zikr{
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
-  transform: translateY(60px);
+  transform: translateY(30px);
 }
 
 #countInfo{
