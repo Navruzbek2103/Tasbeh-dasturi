@@ -12,6 +12,7 @@ h3.zikr{
   text-align: center;
   margin: 60px auto 0;
   font-family: "Monotype Corsiva";
+  text-shadow: 0 0 4px white;
 }
 
 .zikrActive:active{
