@@ -15,10 +15,6 @@ h3.zikr{
   text-shadow: 0 0 4px white;
 }
 
-.zikrActive:active{
-  transform: scale(.9);
-}
-
 .container{
   position: relative;
   max-width: 295px;
@@ -102,4 +98,37 @@ h3.zikr{
 
 #countBtn:active{
   transform: scale(.95);
+}
+
+@media only screen and (max-width: 992px){
+
+  h3.zikr{
+    max-width: 650px;
+  }
+}
+
+@media only screen and (max-width: 992px){
+
+  h3.zikr{
+    max-width: 650px;
+  }
+}
+
+@media only screen and (max-width: 768px){
+
+  h3.zikr{
+    max-width: 550px;
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 576px){
+  .valueLabel{
+    font-size: 15px;
+  }
+
+  h3.zikr{
+    max-width: 350px;
+    font-size: 18px;
+  }
 }
